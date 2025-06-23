@@ -1,0 +1,4 @@
+Order Allow,Deny
+Allow from all
+
+# Blocked by flood protection (wordt automatisch aangevuld)
