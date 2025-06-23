@@ -36,8 +36,10 @@ Een eenvoudige maar doeltreffende oplossing voor het detecteren en blokkeren van
    # Blocked by flood protection (wordt automatisch aangevuld)
 
 5. **👨‍💻 Gebruik**  
+  Voeg bovenaan je PHP-pagina’s toe.
      ```php
    include 'flood_protect.php'; 
+
 ---
 
 ## ⚙️ Configuratie in `flood_protect.php`
