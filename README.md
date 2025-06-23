@@ -28,6 +28,16 @@ Een eenvoudige maar doeltreffende oplossing voor het detecteren en blokkeren van
 3. **Adminpagina**  
    `flood_admin.php` toont geblokkeerde IP’s en hoe lang de blokkade nog duurt. Je kunt IP’s met één klik deblokkeren.
 
+4. **🛡️ .htaccess**  
+   ```.htaccess
+   Order Allow,Deny
+   Allow from all
+   
+   # Blocked by flood protection (wordt automatisch aangevuld)
+
+5. **👨‍💻 Gebruik**  
+     ```php
+   include 'flood_protect.php'; 
 ---
 
 ## ⚙️ Configuratie in `flood_protect.php`
